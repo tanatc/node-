@@ -1,0 +1,7 @@
+npm install+模块名称 ：创建模块依赖项目
+npm init  ：根据提示打包项目依赖
+fs 用_dirname+"/1.txt"
+模块引用用相对路径
+文件引用从cmd命令提示符找到别人
+切换到项目根目录，运行npm run build   相关文件被打包
+npm init可以初始化一个package.json文件

@@ -1,0 +1,15 @@
+express框架似乎后台的node框架
+npm install --save express  自动修改package.json文件，自动添加依赖项目
+app.get(,function(req,res){})
+app.post(,function(req,res){})
+app.all(,function(req,res){})所有method都能处理
+所有的get参数，？后面的都已经忽略，
+正则表达式可以被使用
+中间件 get post 回掉函数，没有next参数，那么久匹配上第一个路由，就不会往下匹配
+app.get("/",function(req,res,next){
+    console.log("1");
+    next();
+});
+app.get("/",function(req,res,next){
+    console.log("2");
+});
